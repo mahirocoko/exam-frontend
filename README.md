@@ -16,7 +16,7 @@
 
 https://user-images.githubusercontent.com/86221632/177466949-e852370e-f44c-4841-8b00-b019fab01fd2.mp4
 
-
+- ### สามารถดูตัวอย่าง model โดยนำไฟล์ model.zip ไปวางไว้ที่เว็บไซต์นี้ https://gltf-viewer.donmccurdy.com/
   ### **หากไม่สามารถ render model ตามตัวอย่างได้ สามารถออกแบบ section นี้เองได้
   ### ***หากสามารถ render model ได้แล้วออกแบบ animation model ใหม่ให้ดูดีกว่าตัวอย่างได้จะ`พิจารณาเป็นพิเศษ`
 
