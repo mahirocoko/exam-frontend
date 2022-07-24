@@ -29,7 +29,7 @@ https://user-images.githubusercontent.com/86221632/177466949-e852370e-f44c-4841-
   ![form validate 3](./images/form-validate-3.png)
 ## Deployment
 - หากทำบททดสอบเสร็จแล้วให้เอาขึ้นไปยัง Github ของตัวเอง ตั้ง Repository เป็น Public ด้วย
-- ตอบกลับอีเมลโดยแนบ Git Repository กลับมายังอีเมล <xxx@gmail.com>
+- ตอบกลับอีเมลโดยแนบ Git Repository กลับมายังอีเมล <xxxx@gmail.com>
 - Deploy application ขึ้นไปยัง Hosting ใดก็ได้ แนะนำผู้ให้บริการตามด้านล่าง
   - Github Page
   - Firebase Hosting
