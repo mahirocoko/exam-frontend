@@ -1,35 +1,31 @@
 # Frontend
 - สามารถใช้ Vue, React, Angular, Svelte หรือ Framework ใดๆ ในการสอบก็ได้
 - สามารถใช้ CSS Framework หรือจะ custom CSS เองก็ได้
-- `(Optional)` สามารถใช้งาน Library ที่เกี่ยวของกับ WebGL ได้ เช่น Three.js, D3, babylon.js หรือ Library ใดๆ ก็ได้ในการ render model
 
 ## Requirement
 
-สร้าง Landing Page ขึ้นมา โดยมี Section ทั้งหมด 2 Section ดังนี้
-1. Hero Section
-2. Form and validation Section
-- ** หมายเหตุ  ข้อ 1-2 ไม่จำเป็นต้องทำเหมือนกับข้อสอบ เป็นเพียงแค่แนวทางในการวาง layout เท่านั้น ```สามารถออกแบบใหม่ได้ทั้งหมด```
+สร้าง Product Listing Page ขึ้นมาตาม Requirement ดังนี้
+1. Render data from API
+2. Filter product by ```category```
+2. Manage product in cart
+- ** หมายเหตุ ไม่จำเป็นต้องทำเหมือนกับข้อสอบ เป็นเพียงแค่แนวทางในการวาง layout เท่านั้น ```สามารถออกแบบใหม่ได้ทั้งหมด```
  
-## 1. Hero Section
-- ### สร้าง Hero Section โดยใช้ model iPhone จาก `model.zip` แล้วทำการ animation model ตามตัวอย่าง video ด้านล่าง
+## 1. Render data from API
+- ### นำข้อมูลจาก https://fakestoreapi.com/products มาแสดงผลดังนี้
+  ![Product list page](./images/list.jpg)
 
+- ### สร้าง skeleton loader ขึ้นมาเมื่อข้อมูลมีการ fetching
+  ![Product placeholder](./images/placholder.jpg)
 
-https://user-images.githubusercontent.com/86221632/177466949-e852370e-f44c-4841-8b00-b019fab01fd2.mp4
+## 2. Filter product by category
+- ### เมื่อเลือก category ไหนบ้างก็ให้แสดงสินค้าตามที่เลือก หากไม่มีการเลือก category ไหนเลยก็ให้แสดงสินค้าทั้งหมด
+  ![Product filter list](./images/filter.jpg)
 
-- ### สามารถดูตัวอย่าง model โดยนำไฟล์ model.zip ไปวางไว้ที่เว็บไซต์นี้ https://gltf-viewer.donmccurdy.com/
-  ### **หากไม่สามารถ render model ตามตัวอย่างได้ สามารถออกแบบ section นี้เองได้
-  ### ***หากสามารถ render model ได้แล้วออกแบบ animation model ใหม่ให้ดูดีกว่าตัวอย่างได้จะ`พิจารณาเป็นพิเศษ`
-
-## 2. Form and validation Section
-- ### สร้าง form สำหรับกรอกข้อมูล ดังตัวอย่าง
-  ![form validate 1](./images/form-validate-1.png)
-- ### validate inputs ข้อมูลแต่ละชนิดให้ถูกต้อง หากไม่ถูกต้องให้แจ้งเตือน
-  ![form validate 2](./images/form-validate-2.png)
-- ### เมื่อ validate form ผ่านให้แสดงผลลัพท์ดังตัวอย่างด้านล่าง
-  ![form validate 3](./images/form-validate-3.png)
+## 3. Manage product in cart
+- ### สามารถจัดการสินค้าที่อยู่ในรถเข็นได้ 
+  ![Product in cart](./images/cart.jpg)
 ## Deployment
 - หากทำบททดสอบเสร็จแล้วให้เอาขึ้นไปยัง Github ของตัวเอง ตั้ง Repository เป็น Public ด้วย
-- ตอบกลับอีเมลโดยแนบ Git Repository กลับมายังอีเมล <xxxx@gmail.com>
 - Deploy application ขึ้นไปยัง Hosting ใดก็ได้ แนะนำผู้ให้บริการตามด้านล่าง
   - Github Page
   - Firebase Hosting
@@ -37,6 +33,5 @@ https://user-images.githubusercontent.com/86221632/177466949-e852370e-f44c-4841-
   - Netlify
   - Heroku
 
-## Problem
-หากมีปัญหาหรือข้อสงสัยให้ติดต่อกลับโดยด่วน ผ่านช่องทางดังต่อไปนี้
-- <xxx@gmail.com>
+## Example
+https://exam-frontend.web.app/
